@@ -1,0 +1,13 @@
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>btn_close</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="UI-Style-Guide" sketch:type="MSArtboardGroup" transform="translate(-913.000000, -2655.000000)" fill="#fff">
+            <g id="Rectangle-172-+-Header-+-Oval-16-+-Exclamation-point-icon-Copy-8" sketch:type="MSLayerGroup" transform="translate(434.000000, 2645.000000)">
+                <path d="M486.087917,15.9998204 L490.774728,20.6870011 C491.075091,20.9873478 491.075091,21.474513 490.774728,21.7748597 C490.624786,21.9247936 490.427897,22 490.231009,22 C490.03412,22 489.837232,21.9247936 489.68729,21.7748597 L485,17.088158 L480.313189,21.7748597 C480.162768,21.9247936 479.96588,22 479.768991,22 C479.572582,22 479.375693,21.9247936 479.225272,21.7748597 C478.924909,21.474513 478.924909,20.9873478 479.225272,20.6870011 L483.912083,15.9998204 L479.225272,11.3131186 C478.924909,11.0127719 478.924909,10.5256067 479.225272,10.22526 C479.525635,9.92491333 480.012347,9.92491333 480.31271,10.22526 L485,14.9124408 L489.686811,10.22526 C489.987653,9.92491333 490.474365,9.92491333 490.774728,10.22526 C491.075091,10.5256067 491.075091,11.0127719 490.774728,11.3131186 L486.087917,15.9998204 Z" id="btn_close" sketch:type="MSShapeGroup"/>
+            </g>
+        </g>
+    </g>
+</svg>
