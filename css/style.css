@@ -11,9 +11,6 @@ root {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 body {
@@ -105,23 +102,50 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
-
+.ditails {
+  padding-top: 94px;
+}
 .ditails-list {
   display: flex;
   gap: 30px;
-  padding: 94px 0;
   justify-content: space-between;
 }
 
-.ditails-iteam {
+.ditails-iteam:nth-child(1):before {
+  content: "";
+  display: block;
+  background-image: url("../img/radar.png");
   width: 270px;
+  height: 120px;
+}
+.ditails-iteam:nth-child(2):before {
+  content: "";
+  display: block;
+  background-image: url("../img/clocer.png");
+  width: 270px;
+  height: 120px;
 } 
+.ditails-iteam:nth-child(3):before {
+  content: "";
+  display: block;
+  background-image: url("../img/biznes.png");
+  width: 270px;
+  height: 120px;
+} 
+.ditails-iteam:nth-child(4):before {
+  content: "";
+  display: block;
+  background-image: url("../img/spacenator.png");
+  width: 270px;
+  height: 120px;
+}  
 .ditails-subtitle {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 a {
     color: #2196f3;
@@ -193,9 +217,7 @@ font-size: 36px;
 letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
-  justify-self: center;
-  justify-content: center;
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .team-list {
