@@ -16,7 +16,6 @@ root {
 body {
   font-family: var(--font-family);
   max-width: 1600px;
-  margin: 0 auto;
 }
 
 .header {
@@ -68,7 +67,6 @@ body {
   color: #2196f3;
 }
 .header-contacts_link::before {
-  content: url('./SVG/envelope.svg');
   display: inline-block;
   width: 16px;
   height: 12px;
@@ -88,11 +86,10 @@ body {
   font-weight: 900;
   text-transform: uppercase;
   width: 700px;
-  margin: 0 auto;
 }
 
 .hero-order {
-  margin-top: 30px;
+  padding-top: 30px;
   padding: 10px 32px;
   background-color: #2196f3;
   color: white;
@@ -144,8 +141,7 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   color: #212121;
-  margin-bottom: 10px;
-  margin-top: 30px;
+
 }
 a {
     color: #2196f3;
@@ -170,9 +166,7 @@ a {
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
-  margin-top: 94px;
-  margin-bottom: 50px;
-  margin-left: 402px;
+
 }
 
 .work-list {
@@ -209,8 +203,6 @@ a {
   display: flex;
   font-size: 36px;
   text-align: center;
-  margin-bottom: 50px;
-  margin-left: 453px;
   font-family: var(--font-family);
 font-weight: 700;
 font-size: 36px;
@@ -235,7 +227,8 @@ color: #212121;
               0 1px 1px rgba(0, 0, 0, 0.14),
               0 1px 3px rgba(0, 0, 0, 0.12);
   width: 270px;
-  height: 368px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-iteam:nth-of-type(1) {
   top: 186px;
@@ -259,20 +252,19 @@ color: #212121;
 
 .team-img {
   width: 100%;
-  height: auto;
 }
 
 .team-name {
   font-weight: 500;
   font-size: 16px;
   color: #212121;
-  margin-top: 16px;
+  padding: 16px;
 }
 
 .team-work {
   font-size: 16px;
   color: #757575;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 .footer {
   display: flex;
@@ -282,8 +274,8 @@ color: #212121;
   background-color: #2F303A;
 }
 .fl {
-  margin-top: 60px;
-  margin-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 .logo-seecound {
   color: #ffffff;
@@ -296,7 +288,9 @@ color: #212121;
 .partfolio-button-list {
   display: flex;
   flex-direction: row;
-  position: absolute;
+  padding: 297px;
+  padding-right: 298px;
+  padding-top: 94px;
   gap: 8px;
 }
 .portfolio-button {
@@ -348,8 +342,7 @@ height: 38px;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  margin-bottom: 94px;
-  margin-top: 182px;
+  padding-top: 34px;
 }
 
 .partfolio-item {
@@ -372,11 +365,22 @@ height: 38px;
 .portfolio-subtitle {
   font-size: 18px;
   font-weight: 700;
-  margin: 20px 24px 0;
+  padding-top: 20px;
+  padding-bottom: 4px;
+
 }
 
 .portfolio-discription {
   font-size: 16px;
   color: #757575;
-  margin: 0 24px 20px;
+  padding-bottom: 20px;
+
+}
+h2 {
+  display: flex;
+  justify-self: center;
+}
+h1 {
+  display: flex;
+  justify-self: center;
 }
