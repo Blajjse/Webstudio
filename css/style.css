@@ -98,6 +98,9 @@ body {
   font-weight: 700;
   font-size: 16px;
   cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 216px;
+  height: 50px;
 }
 .ditails {
   padding-top: 94px;
