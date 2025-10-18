@@ -8,7 +8,8 @@ root {
     --third-color: "#2196f3";
   }
 .container {
-  align-items: center;
+
+  margin: 0 auto;
   padding: 0 215px;
 }
 
@@ -19,7 +20,7 @@ body {
 .header {
   border-bottom: 1px solid #ececec;
   background-color: #fff;
-  padding: 32px 0;
+  padding: 24px 0;
 }
 
 .header-container {
