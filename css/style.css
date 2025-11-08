@@ -8,9 +8,9 @@ root {
     --third-color: "#2196f3";
   }
 .container {
-
-  margin: 0 auto;
+  width: 1170px;
   padding: 0 215px;
+  margin: 0 auto;
 }
 
 body {
@@ -153,7 +153,6 @@ a {
 
 .work {
   padding-bottom: 94px;
-  margin-left: 107.5px;
 }
 
 .work-title {
