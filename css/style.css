@@ -20,7 +20,8 @@ body {
 .header {
   border-bottom: 1px solid #ececec;
   background-color: #fff;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-container {
@@ -49,7 +50,7 @@ body {
   font-weight: 500;
   color: #212121;
   font-size: 14px;
-}
+}  
 .header-link:hover {
   color: #2196f3;
 }
