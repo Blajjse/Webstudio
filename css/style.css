@@ -78,12 +78,20 @@ body {
   padding: 200px 0;
   background-size: cover;
   background-position: center;
+  
 }
+.hero-button {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #2196f3;
+padding: 9.83px 31.97px;
 
+}
 .hero-title {
   font-size: 44px;
   font-weight: 900;
   text-transform: uppercase;
+  width: 696px;
+  padding-bottom: 30px;
 }
 
 .hero-order {
@@ -256,14 +264,10 @@ color: #212121;
 .logo-seecound {
   color: #ffffff;
 }
-.partfolio {
-  padding: 94px 0;
-}
 .partfolio-button-list {
   display: flex;
   flex-direction: row;
-  padding: 297px;
-  padding-right: 298px;
+  padding-left: 297px;
   padding-top: 94px;
   gap: 8px;
 }
@@ -276,26 +280,7 @@ color: #212121;
   font-size: 16px;
   font-weight: 500;
 }
-.partfolio-button-list:nth-child(1) {
-  top: 94px;
-  left: 512px;
-}
-.partfolio-button-list:nth-child(2) {
-  top: 94px;
-  left: 593px;
-}
-.partfolio-button-list:nth-child(3) {
-  top: 94px;
-  left: 726px;
-}
-.partfolio-button-list:nth-child(4) {
-  top: 94px;
-  left: 846px;
-}
-.partfolio-button-list:nth-child(5) {
-  top: 94px;
-  left: 957px;
-}
+
 .portfolio-button:hover {
   background-color: #2196f3;
   color: #fff;
@@ -313,6 +298,8 @@ color: #212121;
   border: 1px solid #eee;
   box-sizing: border-box;
   transition: box-shadow 0.3s ease;
+  width: 370px;
+  height: 404px;
 }
 
 .partfolio-item:hover {
@@ -328,13 +315,14 @@ color: #212121;
   font-weight: 700;
   padding-top: 20px;
   padding-bottom: 4px;
+  padding-left: 24px;
 
 }
 
 .portfolio-discription {
   font-size: 16px;
   color: #757575;
-  padding-bottom: 20px;
+  padding-left: 24px;
 
 }
 h2 {
