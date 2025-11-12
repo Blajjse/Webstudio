@@ -267,9 +267,9 @@ color: #212121;
 .partfolio-button-list {
   display: flex;
   flex-direction: row;
-  padding-left: 297px;
   padding-top: 94px;
   gap: 8px;
+  justify-self: center;
 }
 .portfolio-button {
   padding: 10px 24px;
