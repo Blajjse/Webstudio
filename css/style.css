@@ -24,7 +24,6 @@ body {
 }
 .header {
   border-bottom: 1px solid #ececec;
-  background-color: #fff;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -44,13 +43,13 @@ body {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
-  color: #2196f3;
+  color: var(--link-color);
   padding-right: 93px;
   letter-spacing: 0.03em;
 }
 
 .logo-secound {
-  color: #000;
+  color: var(--secoundlogo-color);
 }
 
 .header-list {
@@ -61,29 +60,33 @@ body {
 
 .header-link {
   font-weight: 500;
-  color: #212121;
+  color: var(--prime-color);
+  letter-spacing: 0.02em;
 }  
 .header-link:hover {
-  color: #2196f3;
+  color: var(--link-color);
 }
 .header-contacts_list {
   display: flex;
-  gap: 40px;
+  gap: 50px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .header-contacts_link {
-  color: #757575;
+  color: var(--text-color);
+  letter-spacing: 0.02em;
 }
 .header-contacts_link:hover {
-  color: #2196f3;
+  color: var(--link-color);
 }
 .header-contacts_link::before {
   display: inline-block;
 
 }
 .hero {
-  background-color: #212121;
-  color: #fff;
+  background-color: var(--prime-color);
+  color: var(--iconsbg-color);
   text-align: center;
   padding: 200px 0;
   background-size: cover;
@@ -106,9 +109,9 @@ letter-spacing: 0.06em;
 }
 
 .hero-order {
-  
-  background-color: #2196f3;
-  color: white;
+  font-family: var(--font-family);
+  background-color: var(--link-color);
+  color: var(--iconsbg-color);
   border: none;
   border-radius: 4px;
   font-weight: 700;
@@ -152,17 +155,17 @@ letter-spacing: 0.06em;
 .ditails-subtitle {
   font-weight: 700;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--prime-color);
   padding-top: 30px;
   padding-bottom: 10px;
 
 }
 a {
-    color: #2196f3;
+    color: var(--link-color);
     text-decoration: none;
 }
 .ditails-text {
-  color: #757575;
+  color: var(--text-color);
   line-height: 171%;
 }
 
@@ -176,7 +179,7 @@ a {
   font-weight: 700;
   font-size: 36px;  
   text-align: center;
-  color: #212121;
+  color: var(--prime-color);
   padding-bottom: 50px;
   
 
@@ -191,7 +194,7 @@ a {
 
 .team {
  
-  background-color: #f5f4fa;
+  background-color: var(--iconsbg-color);
   padding: 94px 0;
 }
 
@@ -203,7 +206,7 @@ a {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  color: #212121;
+  color: var(--prime-color);
   padding-bottom: 50px;
 }
 
@@ -221,24 +224,6 @@ a {
               0 1px 1px rgba(0, 0, 0, 0.14),
               0 1px 3px rgba(0, 0, 0, 0.12);
 }
-.team-iteam:nth-of-type(1) {
-  top: 186px;
-  left: 215px;
-}
-
-.team-iteam:nth-of-type(2) {
-  top: 186px;
-  left: 515px;
-}
-
-.team-iteam:nth-of-type(3) {
-  top: 186px;
-  left: 815px;
-}
-.team-iteam:nth-of-type(4) {
-  top: 186px;
-  left: 1115px;
-}
 
 
 .team-img {
@@ -248,28 +233,27 @@ a {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  color: #212121;
+  color: var(--prime-color);
   padding: 16px;
 }
 
 .team-work {
   font-size: 16px;
-  color: #757575;
+  color: var(--text-color);
   padding-bottom: 16px;
 }
 .footer {
   display: flex;
   flex-direction: column;
-  background-color: #2F303A;
+  background-color: var(--prime-color);
   padding: 60px 0;
 }
 .footer-logo {
-  padding-top: 60px;
   padding-bottom: 20px;
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
-  color: #2196f3;
+  color: var(--link-color);
 }
 .footer-item {
   font-weight: 400;
@@ -279,13 +263,10 @@ letter-spacing: 0.03em;
 font-family: var(--font-family);
 }
 .foote-address {
-  color: #fff;
+  color: var(--iconsbg-color);
   padding-top: 20px;
 }
-.footer-adresss {
-  display: flex;
-  gap: 9px;
-}
+
 .index-email {
   color: rgba(255, 255, 255, 0.6);;
 }
@@ -293,7 +274,7 @@ font-family: var(--font-family);
   color: rgba(255, 255, 255, 0.6);
 }
 .logo-seecound {
-  color: #ffffff;
+  color: var(--iconsbg-color);
 }
 .partfolio {
   padding: 94px 0;
@@ -306,7 +287,7 @@ font-family: var(--font-family);
 }
 .portfolio-button {
   padding: 6px 22px;
-  border: 1px solid #eee;
+  border: 1px solid var(--iconsbg-color);
   border-radius: 4px;
   background: #fff;
   cursor: pointer;
@@ -317,8 +298,8 @@ font-family: var(--font-family);
 }
 
 .portfolio-button:hover {
-  background-color: #2196f3;
-  color: #fff;
+  background-color: var(--link-color);
+  color: var(--iconsbg-color);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -332,7 +313,7 @@ font-family: var(--font-family);
 
 .partfolio-item {
   flex-basis: calc((100% - 60px)/3);
-  border: 1px solid #eee;
+  border: 1px solid var(--iconsbg-color);
   box-sizing: border-box;
   transition: box-shadow 0.3s ease;
 }
@@ -359,7 +340,7 @@ letter-spacing: 0.06em;
 
 .portfolio-discription {
   font-size: 16px;
-  color: #757575;
+  color: var(--text-color);
   padding-left: 24px;
   line-height: 1.87;
 padding-top: 4px;
